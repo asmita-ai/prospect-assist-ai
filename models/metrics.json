@@ -1,0 +1,28 @@
+{
+  "income_estimator": {
+    "mae": 5789.1,
+    "r2": 0.9452,
+    "mae_pct_of_mean_income": 8.93,
+    "baseline_declared_income_mae": 15066.36,
+    "improvement_over_declared_pct": 61.58
+  },
+  "lead_scorer": {
+    "auc": 0.8767,
+    "accuracy_at_thresh": 0.748,
+    "precision_at_thresh": 0.5536,
+    "recall_at_thresh": 0.8267,
+    "f1_at_thresh": 0.6631,
+    "chosen_threshold": 0.175,
+    "pct_flagged_as_leads": 44.8,
+    "conversion_rate_among_flagged_leads_pct": 55.36
+  },
+  "product_recommender": {
+    "accuracy": 0.988,
+    "classes": [
+      "Auto Loan",
+      "Home Loan",
+      "Mortgage Loan",
+      "Personal Loan"
+    ]
+  }
+}

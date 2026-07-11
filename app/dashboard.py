@@ -18,7 +18,8 @@ import streamlit as st
 st.set_page_config(page_title="Prospect Assist AI | IDBI Innovate 2026",
                     page_icon="🏦", layout="wide")
 
-MODEL_DIR = "/home/claude/prospect-assist-ai/models"
+import os
+MODEL_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "models")
 IDBI_TEAL = "#0d5c4e"
 IDBI_ORANGE = "#e8732c"
 

@@ -115,6 +115,6 @@ datasets, under the bank's data-governance and RBI compliance controls.
 
 ## Team
 
-- Team name: _[fill in]_
-- Team leader: _[fill in]_
+- Team name: _Asmita_
+- Team leader: _Asmita Karmakar_
 - Problem Statement: 2 — Prospect Assist AI
